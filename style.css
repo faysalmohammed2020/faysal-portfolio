@@ -8,6 +8,9 @@ h1{
 .orange-color{
     color: orange;
 }
+h2{
+    font-size: 40px;
+}
 .flexible-content{
     display: flex;
     margin-bottom: 100px;
@@ -35,7 +38,7 @@ h1{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
 p{
     padding: 2px;
@@ -43,4 +46,16 @@ p{
 }
 .experience{
     margin-left: 20px;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
